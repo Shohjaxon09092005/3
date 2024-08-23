@@ -1,0 +1,48 @@
+.apply_wrapper {
+    padding: 32px 64px 35px 40px;
+    background: #f2f5f9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apply_content h4 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.04em;
+    color: #495567;
+    margin-bottom: 8px;
+
+}
+
+.apply_content p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+    color: #495567;
+}
+.apply{
+    margin-bottom: 24px;
+}
+.careers .our{
+    margin-bottom: 120px;
+
+}
+@media(max-width:500px){
+    .apply_wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 16px;
+        padding: 40px;
+    }
+    .apply_wrapper button{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+}

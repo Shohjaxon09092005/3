@@ -1,0 +1,14 @@
+.aboutBg h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #fff;
+}
+.aboutBg {
+    padding: 62px 0 82px 0;
+}
+.careersBg h1{
+    opacity: 0;
+}

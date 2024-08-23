@@ -1,0 +1,134 @@
+.faq_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq_card_div1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 32px 40px;
+    background: #f2f5f9;
+    margin-bottom: 16px;
+}
+
+.faq_card_div {
+    display: flex;
+    align-items: flex-start;
+    padding: 32px 40px;
+    background: #f2f5f9;
+    margin-bottom: 16px;
+
+}
+
+.faq_wrapper h3 {
+    width: 70%;
+}
+
+.faq h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #495567;
+    margin-top: 112px;
+    margin-bottom: 56px;
+}
+
+.faq_wrapper h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    color: #495567;
+}
+
+.faq_card_div h4 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.04em;
+    color: #495567;
+    margin-bottom: 24px;
+
+}
+
+.faq_card_div1 h4 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.04em;
+    color: #495567;
+
+}
+
+.faq_card_div p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+    color: #495567;
+}
+
+.top {
+    margin-top: 64px;
+}
+
+@media(max-width:800px) {
+    .faq_wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+    }
+
+    .faq_wrapper h3 {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media(max-width:500px) {
+    .faq_wrapper h3 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 117%;
+        letter-spacing: -0.04em;
+        text-align: center;
+        color: #495567;
+    }
+
+    .faq_card_div h4 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 133%;
+        letter-spacing: -0.04em;
+        color: #495567;
+    }
+
+    .faq_card_div1 h4 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 133%;
+        letter-spacing: -0.04em;
+        color: #495567;
+    }
+
+    .faq_card_div p {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 167%;
+        color: #495567;
+    }
+
+}

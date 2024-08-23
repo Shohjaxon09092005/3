@@ -1,0 +1,114 @@
+.groop_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 160px;
+
+}
+
+.groop_content {
+    width: 40%;
+
+
+}
+
+.groop_content h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #495567;
+}
+
+.groop_content p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 167%;
+    color: #939caa;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+@media(max-width:800px) {
+
+    .groop_wrapper {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .groop_content {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .groop_wrapper img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .groop_content button {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .groop_content h2 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 100%;
+        letter-spacing: -0.04em;
+        text-align: center;
+        color: #495567;
+    }
+
+    .groop_content p {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 167%;
+        text-align: center;
+        color: #939caa;
+    }
+
+    .groop_wrapper {
+        margin-top: 56px;
+    }
+}
+
+@media(max-width:800px) {
+    .groop_wrapper img {
+        width: 311px;
+        height: 311px;
+    }
+
+    .groop_content h2 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: -0.04em;
+        text-align: center;
+        color: #495567;
+        margin-top: 56px;
+        margin-bottom: 32px;
+    }
+
+    .groop_content p {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 167%;
+        text-align: center;
+        color: #939caa;
+    }
+}
+@media(max-width:400px) {
+    .groop_wrapper img{
+        width: 250px;
+        height: 250px;
+    }
+}
